@@ -55,3 +55,12 @@ def signup(request):
     else:
       form = SignupForm()
     return render(request, 'registration/signup.html', {'form': form})
+
+def user_profile(request, username):
+  user_prof = get_object_or_404(User, username=username)
+  if request.user == user_prof:
+    return redirect('profile', username=request.user.username)
+    params = {
+        'user_prof': user_prof,
+    }
+  return render(request, 'userprofile.html', params)
