@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myawwards',
     'pyuploadcare.dj',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
