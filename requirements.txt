@@ -9,7 +9,7 @@ click-log==0.4.0
 cloudinary==1.29.0
 cloudinary-cli==1.5.0
 contextvars==2.4
-dataclasses==0.8
+dataclasses
 Django==3.2.13
 django-bootstrap4==21.1
 django-crispy-forms==1.13.0
