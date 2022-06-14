@@ -20,7 +20,7 @@ To get the project .......
   
 ##### Cloning the repository:  
  ```bash 
- https://github.com/Owiti-Charles/projects-post.git 
+ https://github.com/anneyk/projects-post.git 
 ```
 ##### Navigate into the folder and install requirements  
  ```bash 
@@ -58,8 +58,6 @@ python manage.py makemigrations
  python manage.py test 
 ```
 Open the application on your browser `127.0.0.1:8000`.  
-  
- ### Api Endpoints
  
 ## Technology used  
   
