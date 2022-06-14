@@ -1,6 +1,6 @@
 # projects-post
 # Description  
-This project allows users to post their projects for other users to rate according to design, usability and content 
+This project allows users to post their projects for other users to rate according to design, usability and content.
 ##  Live Link  
 
    
@@ -16,7 +16,7 @@ This project allows users to post their projects for other users to rate accordi
 
   
 ## Setup and Installation  
-To get the project .......  
+To access the project  
   
 ##### Cloning the repository:  
  ```bash 
