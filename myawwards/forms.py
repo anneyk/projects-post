@@ -22,7 +22,7 @@ class PostForm(forms.ModelForm):
 
 
 class UpdateUserForm(forms.ModelForm):
-    email = forms.EmailField(max_length=254, help_text='Required. Inform a valid email address.')
+    email = forms.EmailField(max_length=254)
 
     class Meta:
         model = User
@@ -32,7 +32,7 @@ class UpdateUserForm(forms.ModelForm):
 class UpdateUserProfileForm(forms.ModelForm):
     class Meta:
         model = Profile
-        fields = ['name', 'location', 'profile_picture', 'bio', 'contact']
+        fields = ['name', 'location', 'profile_picture', 'bio']
 
 
 class RatingsForm(forms.ModelForm):
